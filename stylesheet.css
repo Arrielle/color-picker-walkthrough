@@ -5,9 +5,10 @@ margin: auto;
   position: absolue;
   text-align: center;
   width: 80%;
+  padding-top: 80px;
 }
 
-h1 {
+h1, h2, h3 {
   color: white;
 }
 
@@ -15,7 +16,11 @@ h1 {
   height: 150px;
   width: 150px;
   margin: 10px;
-  display: inline-block; 
+  display: inline-block;
 }
 
 #colorBlockContainer
+
+#userColorPrompt{
+  color: white;
+}
